@@ -1,5 +1,5 @@
 {
-   "checksum": "3fbfee156ebe37b41410f02539823329",
+   "checksum": "fc221731288b06d62af5b3833a4facfe",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -90,42 +90,56 @@
                   "id": "21",
                   "name": "oz-storage - FreeNAS-9.3-CURRENT-201503130047",
                   "type": "url",
-                  "url": "http://oz-storage/"
+                  "url": "http://oz-storage/legacy"
                }, {
                   "date_added": "13258065011552320",
                   "guid": "d68780f8-2a1c-4054-9145-1f69fd9909c2",
                   "id": "256",
                   "name": "apollo - Proxmox Virtual Environment",
                   "type": "url",
-                  "url": "https://192.168.1.30:8006/#v1:0:=node%2Fapollo:4:10::::9::9"
+                  "url": "https://apollo:8006/#v1:0:=node%2Fapollo:4:10::::9::9"
                }, {
                   "date_added": "13258088298369474",
                   "guid": "a7da121f-2e5e-404f-96d2-fdca4b7aefc6",
                   "id": "257",
                   "name": "atlas.localdomain - Status: Dashboard",
                   "type": "url",
-                  "url": "https://192.168.1.1/"
+                  "url": "https://atlas/"
                }, {
                   "date_added": "13258181488740138",
                   "guid": "2999e8d0-a7cd-4ad2-8dd1-aacb6e093840",
                   "id": "262",
                   "name": "qBittorrent v4.1.5 Web UI",
                   "type": "url",
-                  "url": "http://192.168.1.5:8080/"
+                  "url": "http://charon:8080/"
                }, {
                   "date_added": "13258181503588770",
                   "guid": "78c95a22-1815-44e4-a470-fab7b0786e35",
                   "id": "263",
                   "name": "Sonarr",
                   "type": "url",
-                  "url": "http://192.168.1.5:8989/"
+                  "url": "http://charon:8989/"
                }, {
                   "date_added": "13258250038954349",
                   "guid": "63ce5a2e-0abd-407c-89b6-192940235cf5",
                   "id": "265",
                   "name": "Jellyfin",
                   "type": "url",
-                  "url": "http://192.168.1.5:8096/web/index.html#!/home.html"
+                  "url": "http://charon:8096/web/index.html#!/home.html"
+               }, {
+                  "date_added": "13258413451694546",
+                  "guid": "bba7abe4-c084-4fe8-a174-0d8c5df2c33e",
+                  "id": "267",
+                  "name": "CouchPotato",
+                  "type": "url",
+                  "url": "http://charon:5050/"
+               }, {
+                  "date_added": "13258414357128363",
+                  "guid": "d9b162f8-e107-4a4c-8fe4-05871d45fa67",
+                  "id": "268",
+                  "name": "Pi-hole - mimir",
+                  "type": "url",
+                  "url": "http://mimir/admin/index.php"
                }, {
                   "children": [ {
                      "date_added": "0",
@@ -150,14 +164,14 @@
                      "url": "https://192.168.1.205:9092/home/"
                   } ],
                   "date_added": "13258250115155531",
-                  "date_modified": "13258250122907125",
+                  "date_modified": "13258413451694546",
                   "guid": "eddbdc7d-6c94-4482-b2b7-2f93c86e72d5",
                   "id": "266",
                   "name": "Deprecated",
                   "type": "folder"
                } ],
                "date_added": "13257474070185723",
-               "date_modified": "13258250115155649",
+               "date_modified": "13258414911034479",
                "guid": "acd9664b-01b8-4824-997b-aa9c0c7eb849",
                "id": "19",
                "name": "Servers",
@@ -635,28 +649,7 @@
                   "type": "url",
                   "url": "https://wiki.archlinux.org/index.php/Broadcom_wireless#Installation"
                }, {
-                  "children": [ {
-                     "date_added": "13258134543871075",
-                     "guid": "8e7b2581-280c-41da-a0d7-07d730a2ab56",
-                     "id": "258",
-                     "name": "Rtorrent recent change: You can ditch screen or tmux : seedboxes",
-                     "type": "url",
-                     "url": "https://www.reddit.com/r/seedboxes/comments/d8zols/rtorrent_recent_change_you_can_ditch_screen_or/"
-                  }, {
-                     "date_added": "13258150171651769",
-                     "guid": "4574815f-969f-48b3-8aa9-356993c38045",
-                     "id": "260",
-                     "name": "Easy rTorrent + ruTorrent Installation And Configuration Script For Debian Or Ubuntu - Linux Uprising Blog",
-                     "type": "url",
-                     "url": "https://www.linuxuprising.com/2019/08/easy-rtorrent-rutorrent-installation.html"
-                  }, {
-                     "date_added": "13258220353424047",
-                     "guid": "9421c03c-23dc-4530-bfc7-79db2ebd270d",
-                     "id": "264",
-                     "name": "Radarr Installation - Servarr",
-                     "type": "url",
-                     "url": "https://wiki.servarr.com/Radarr_Installation"
-                  } ],
+                  "children": [  ],
                   "date_added": "13258134561310006",
                   "date_modified": "13258250038954349",
                   "guid": "b77f6c44-414e-4e11-9e3a-6574cf9966e5",
